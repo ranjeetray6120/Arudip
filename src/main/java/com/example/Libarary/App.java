@@ -1,7 +1,5 @@
 package com.example.Libarary;
 
-import utility.ConnectionProvider;
-
 /**
  * Hello world!
  *

@@ -74,7 +74,10 @@ public class Menu {
 						break;
 					}
 					case 4:{
-						System.out.println();
+							System.out.print("Enter the book ID: ");
+							int bookid = sc.nextInt();
+						BooksDOA bookDOA = new BooksDOAImpl();
+						bookDOA.deletebookbyid(bookid);
 						break;
 					}
 					case 5:{
